@@ -15,7 +15,7 @@ This system compresses video & audio files submitted by a user
 Create a .env file by copying the .env.sample provided and run:
 
 ```
-docker-compose -f docker-compose.yml up --build
+docker compose -f docker-compose.yml up --build
 ```
 to build and run the container using the yaml file.
 
