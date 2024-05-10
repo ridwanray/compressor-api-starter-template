@@ -1,8 +1,6 @@
 """
 Django settings for Video and Audio Compressor project.
 """
-
-import os
 from pathlib import Path
 import dj_database_url
 
@@ -160,9 +158,8 @@ CELERY_ACCEPT_CONTENT = ["application/json", "application/x-python-serialize"]
 CELERY_RESULT_SERIALIZER = "json"
 CELERY_TASK_SERIALIZER = "json"
 
-
 # AWS CONFIG FOR FILE STORAGE:
-# Pls keep all credentials as environment variables 🙏
+# Pls keep all credentials as environment variables 🙏.
 AWS_ACCESS_KEY_ID = "access_key_id" 
 AWS_SECRET_ACCESS_KEY = "secret_access_key"
 AWS_STORAGE_BUCKET_NAME = "compressor"
