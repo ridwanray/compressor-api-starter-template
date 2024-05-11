@@ -65,12 +65,7 @@ services:
 
   db:
     image: postgres:15
-    volumes:
-      - postgres_data:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=compressor_db_user
       - POSTGRES_PASSWORD=compressor_password
       - POSTGRES_DB=compressor_db
-
-volumes:
-  postgres_data:
