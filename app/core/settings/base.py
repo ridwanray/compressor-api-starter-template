@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Third-party Apps
+    "storages",
     "corsheaders",
     "drf_spectacular",
     "core.celery.CeleryConfig",
